@@ -20,7 +20,7 @@ Cloud engineers should follow certain best practices while utilizing version con
 
 Git is the most popular distributed version control system, providing a decentralized approach to managing repositories. Unlike centralized systems, Git allows each user to work independently with a complete repository copy. Developers can create branches, commit changes, and merge them back into the main codebase after review.
 
-Besides understanding the importance of the version control, and Git itself,there are some main concepts that cloud engineers should grasp:
+Besides understanding the importance of the version control, and Git itself, there are some main concepts that cloud engineers should grasp:
 * Repository is a a database storing the complete history of project files and revisions. There are two types of the repositories:
     * Local: a git repository on your machine.
     * Remote: a shared repository (e.g., on GitHub, GitLab, or Bitbucket) that teams collaborate on.
@@ -140,7 +140,7 @@ IdentityFile ~/.ssh/id_rsa
 6. Copy the public key and add it to your GitHub account `pbcopy < ~/.ssh/id_rsa.pub`.
 7. Verify the SSH connection by running `ssh -T git@github.com`.
 
-One more step you would to consider to complete for integrating AWS workflows is to install AWS CLI. I recommend to do it via Homebrew, by running the following command: `brew install awscli`. Verify the installation by running `aws --version`.
+One more step you would to consider to complete for integrating AWS workflows is to install AWS CLI. You could do this via Homebrew, by running the following command: `brew install awscli`. Verify the installation by running `aws --version`.
 
 This guide should serve you a foundation for understanding and implementing version control, Git, and GitHub workflows effectively. Getting to know these basics will give you a good start in your cloud engineering journey and enhance collaboration while working on the projects. 
 
